@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-09T06:20:45 IST" name="Default suite" finished-at="2024-04-09T06:22:22 IST" duration-ms="97009">
+    <groups>
+    </groups>
+    <test started-at="2024-04-09T06:20:45 IST" name="Default test" finished-at="2024-04-09T06:22:22 IST" duration-ms="97009">
+      <class name="Testcase.Makemytrip">
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:20:43 IST" name="LaunchDriver" finished-at="2024-04-09T06:20:45 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:20:45 IST" name="LaunchURL" finished-at="2024-04-09T06:20:47 IST" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="validSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:20:47 IST" name="validSearch" data-provider="validSearchTestData" finished-at="2024-04-09T06:21:04 IST" duration-ms="16628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method signature="validSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:21:04 IST" name="validSearch" data-provider="validSearchTestData" finished-at="2024-04-09T06:22:19 IST" duration-ms="75750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method signature="SameCityValidation(java.lang.String,java.lang.String)[pri:1, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:22:19 IST" name="SameCityValidation" data-provider="invalidSearchTestData" finished-at="2024-04-09T06:22:21 IST" duration-ms="1493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SameCityValidation -->
+        <test-method signature="SameCityValidation(java.lang.String,java.lang.String)[pri:1, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:22:21 IST" name="SameCityValidation" data-provider="invalidSearchTestData" finished-at="2024-04-09T06:22:22 IST" duration-ms="624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SameCityValidation -->
+        <test-method signature="SameCityValidation(java.lang.String,java.lang.String)[pri:1, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:22:22 IST" name="SameCityValidation" data-provider="invalidSearchTestData" finished-at="2024-04-09T06:22:22 IST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SameCityValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcase.Makemytrip@33d512c1]" started-at="2024-04-09T06:22:22 IST" name="closeBrowser" finished-at="2024-04-09T06:22:23 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcase.Makemytrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
